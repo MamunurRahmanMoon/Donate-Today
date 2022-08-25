@@ -8,7 +8,8 @@ h1 {
 
     font-size: 60px;
 }
-h2{
+
+h2 {
     font-size: 45px;
 }
 
@@ -18,9 +19,10 @@ section {
 }
 
 .big-image-area {
-    background-image: url("images/donation4.jpg");
+    background: rgba(0, 0, 0, 0.7) url("images/donation4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: darken;
 
 }
 
@@ -32,9 +34,6 @@ section {
     text-align: center;
 }
 
-/* .big-image-text h1{
-    
-} */
 .big-image-text p {
     text-align: center;
     margin-left: 100px;
@@ -54,10 +53,33 @@ section {
     background-color: rgb(255, 89, 89);
 }
 
-.donate-area{
-    height: 600px%;
+.donate-area {
+    margin-top: 150px;
+    height: 100px;
+    width: 100%;
 }
-.donate-text{
-    margin:0 auto;
+
+.donate-text {
+    margin: 0 auto;
     text-align: center;
+}
+
+.donation-amount {
+    justify-content: center;
+}
+.amount{
+    border-radius: 3px;
+    padding: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 20px;
+    background-color: rgb(247, 237, 237)
+}
+#default-amount{
+    border: 2px solid rgb(255, 89, 89);
+    color: rgb(255, 89, 89);
+}
+
+.input{
+    margin: 0 auto;
 }
