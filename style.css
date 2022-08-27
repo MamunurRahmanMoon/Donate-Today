@@ -6,16 +6,20 @@
 
 h1 {
 
-    font-size: 60px;
+    font-size: 70px;
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 50px;
 }
 
+.div {
+    display: block;
+}
 
 .flex-section {
     display: flex;
+    justify-content: center;
 }
 
 .big-image-area {
@@ -45,7 +49,7 @@ h2 {
 }
 
 .link-design {
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     padding: 5px 10px;
     text-decoration: none;
@@ -123,26 +127,110 @@ h2 {
 .plan-one {
     padding: 20px;
     height: 100%;
-    margin-left: 20px;
-    margin-right: 2%;
+    margin-left: 200px;
+    margin-right: 50px;
     padding: 40px 80px 40px 80px;
+    border-radius: 4px;
     background-color: rgb(251, 250, 250);
 }
 
 .plan-two {
     padding: 20px;
     height: 100%;
-    margin-left:20px;
-    margin-right: 2%;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 40px 80px 40px 80px;
+    border-radius: 4px;
     background-color: rgb(255, 238, 238);
 }
 
 .plan-three {
     padding: 20px;
     height: 100%;
-    margin-left: 20px;
-    margin-right: 2%;
+    margin-left: 50px;
+    margin-right: 200px;
     padding: 40px 80px 40px 80px;
+    border-radius: 4px;
     background-color: rgb(255, 244, 214);
+}
+
+.midlle-area-one {
+    margin-top: 10%;
+    margin-left: 200px;
+    height: 70%;
+}
+
+.midlle-area-one img {
+    border-radius: 7px;
+    width: 70%;
+    height: 100%;
+    margin-left: 50px;
+}
+
+.midlle-area-two {
+    margin-top: 10%;
+    margin-right: 200px;
+    height: 100%;
+
+}
+
+.midlle-area-two img {
+    border-radius: 7px;
+    width: 50%;
+    height: 100%;
+    margin-left: 200px;
+    margin-right: 10px;
+}
+
+.last-area {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.subscription {
+    background-color: #FFF4D6;
+    width: 52%;
+    margin: 40px auto;
+    padding: 2px;
+}
+
+.extra-margin {
+    margin: 80px 30px;
+    text-align: center;
+}
+
+.subs-email {
+    border: none;
+    width: 40%;
+    padding: 15px 10px;
+    margin-right: -5px;
+    background-color: rgb(217, 217, 217);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.subs-button {
+    border: none;
+    width: 30%;
+    padding: 15px 10px;
+    margin-right: -6px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: aliceblue;
+    background-color: rgb(254, 89, 89);
+}
+
+footer {
+    padding: 35px;
+    background-color: black;
+    text-align: center;
+}
+
+footer h2 {
+    font-family: 'Silkscreen', cursive;
+    color: rgb(255, 89, 89);
+}
+
+footer p {
+    color: aliceblue;
 }
